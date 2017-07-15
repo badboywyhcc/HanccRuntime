@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F5B684C1F0F6A9A002D173E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B684B1F0F6A9A002D173E /* main.m */; };
+		4F5B684F1F0F6A9A002D173E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B684E1F0F6A9A002D173E /* AppDelegate.m */; };
+		4F5B68521F0F6A9A002D173E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B68511F0F6A9A002D173E /* ViewController.m */; };
+		4F5B68551F0F6A9A002D173E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B68531F0F6A9A002D173E /* Main.storyboard */; };
+		4F5B68571F0F6A9A002D173E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B68561F0F6A9A002D173E /* Assets.xcassets */; };
+		4F5B685A1F0F6A9A002D173E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B68581F0F6A9A002D173E /* LaunchScreen.storyboard */; };
+		4F75D1EA1F1A039A005A7685 /* exchangeMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1E91F1A039A005A7685 /* exchangeMethodViewController.m */; };
+		4F75D1F11F1A03B7005A7685 /* addPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1EC1F1A03B7005A7685 /* addPropertyViewController.m */; };
+		4F75D1F21F1A03B7005A7685 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1EE1F1A03B7005A7685 /* Person.m */; };
+		4F75D1F31F1A03B7005A7685 /* Person+HanccAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1F01F1A03B7005A7685 /* Person+HanccAddProperty.m */; };
+		4F75D1F61F1A03C9005A7685 /* getPrivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1F51F1A03C9005A7685 /* getPrivateViewController.m */; };
+		4F75D1FC1F1A03DF005A7685 /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1FB1F1A03DF005A7685 /* ModifyViewController.m */; };
+		4F75D20A1F1A054B005A7685 /* HanccBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D1FF1F1A054B005A7685 /* HanccBasicViewController.m */; };
+		4F75D20B1F1A054B005A7685 /* HanccCommonComponentsConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D2011F1A054B005A7685 /* HanccCommonComponentsConfig.m */; };
+		4F75D20C1F1A054B005A7685 /* HanccGetPropertyMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D2031F1A054B005A7685 /* HanccGetPropertyMethod.m */; };
+		4F75D20D1F1A054B005A7685 /* UILabel+HanccExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D2051F1A054B005A7685 /* UILabel+HanccExchangeMethod.m */; };
+		4F75D20E1F1A054B005A7685 /* UIView+HanccExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D2071F1A054B005A7685 /* UIView+HanccExchangeMethod.m */; };
+		4F75D20F1F1A054B005A7685 /* UIViewController+HanccExchangeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F75D2091F1A054B005A7685 /* UIViewController+HanccExchangeMethod.m */; };
+		4F75D2111F1A089D005A7685 /* HanccRuntime.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4F75D2101F1A089D005A7685 /* HanccRuntime.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F5B68471F0F6A9A002D173E /* HanccRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanccRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5B684B1F0F6A9A002D173E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F5B684D1F0F6A9A002D173E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F5B684E1F0F6A9A002D173E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F5B68501F0F6A9A002D173E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5B68511F0F6A9A002D173E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F5B68541F0F6A9A002D173E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5B68561F0F6A9A002D173E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5B68591F0F6A9A002D173E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5B685B1F0F6A9A002D173E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F75D1E81F1A039A005A7685 /* exchangeMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exchangeMethodViewController.h; sourceTree = "<group>"; };
+		4F75D1E91F1A039A005A7685 /* exchangeMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exchangeMethodViewController.m; sourceTree = "<group>"; };
+		4F75D1EB1F1A03B7005A7685 /* addPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addPropertyViewController.h; sourceTree = "<group>"; };
+		4F75D1EC1F1A03B7005A7685 /* addPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addPropertyViewController.m; sourceTree = "<group>"; };
+		4F75D1ED1F1A03B7005A7685 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4F75D1EE1F1A03B7005A7685 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4F75D1EF1F1A03B7005A7685 /* Person+HanccAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+HanccAddProperty.h"; sourceTree = "<group>"; };
+		4F75D1F01F1A03B7005A7685 /* Person+HanccAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+HanccAddProperty.m"; sourceTree = "<group>"; };
+		4F75D1F41F1A03C9005A7685 /* getPrivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getPrivateViewController.h; sourceTree = "<group>"; };
+		4F75D1F51F1A03C9005A7685 /* getPrivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getPrivateViewController.m; sourceTree = "<group>"; };
+		4F75D1FA1F1A03DF005A7685 /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		4F75D1FB1F1A03DF005A7685 /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
+		4F75D1FE1F1A054B005A7685 /* HanccBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanccBasicViewController.h; sourceTree = "<group>"; };
+		4F75D1FF1F1A054B005A7685 /* HanccBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanccBasicViewController.m; sourceTree = "<group>"; };
+		4F75D2001F1A054B005A7685 /* HanccCommonComponentsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanccCommonComponentsConfig.h; sourceTree = "<group>"; };
+		4F75D2011F1A054B005A7685 /* HanccCommonComponentsConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanccCommonComponentsConfig.m; sourceTree = "<group>"; };
+		4F75D2021F1A054B005A7685 /* HanccGetPropertyMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanccGetPropertyMethod.h; sourceTree = "<group>"; };
+		4F75D2031F1A054B005A7685 /* HanccGetPropertyMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanccGetPropertyMethod.m; sourceTree = "<group>"; };
+		4F75D2041F1A054B005A7685 /* UILabel+HanccExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HanccExchangeMethod.h"; sourceTree = "<group>"; };
+		4F75D2051F1A054B005A7685 /* UILabel+HanccExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HanccExchangeMethod.m"; sourceTree = "<group>"; };
+		4F75D2061F1A054B005A7685 /* UIView+HanccExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HanccExchangeMethod.h"; sourceTree = "<group>"; };
+		4F75D2071F1A054B005A7685 /* UIView+HanccExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HanccExchangeMethod.m"; sourceTree = "<group>"; };
+		4F75D2081F1A054B005A7685 /* UIViewController+HanccExchangeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HanccExchangeMethod.h"; sourceTree = "<group>"; };
+		4F75D2091F1A054B005A7685 /* UIViewController+HanccExchangeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HanccExchangeMethod.m"; sourceTree = "<group>"; };
+		4F75D2101F1A089D005A7685 /* HanccRuntime.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HanccRuntime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5B68441F0F6A9A002D173E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F5B683E1F0F6A9A002D173E = {
+			isa = PBXGroup;
+			children = (
+				4F75D2101F1A089D005A7685 /* HanccRuntime.podspec */,
+				4F5B68491F0F6A9A002D173E /* HanccRuntime */,
+				4F5B68481F0F6A9A002D173E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5B68481F0F6A9A002D173E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B68471F0F6A9A002D173E /* HanccRuntime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5B68491F0F6A9A002D173E /* HanccRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1E41F1A0365005A7685 /* 场景1交换方法 */,
+				4F75D1E51F1A036E005A7685 /* 场景2添加属性 */,
+				4F75D1E61F1A0376005A7685 /* 场景3获取私有属性和方法 */,
+				4F75D1E71F1A037F005A7685 /* 场景4修改私有属性值 */,
+				4F7C69861F19FD2B0057E54E /* AppDelegate */,
+				4F7C69851F19FD0F0057E54E /* Other */,
+				4F7C69871F19FD4C0057E54E /* Main */,
+				4F5B685B1F0F6A9A002D173E /* Info.plist */,
+				4F75D1FD1F1A054B005A7685 /* HanccRuntimeLibrary */,
+				4F5B684A1F0F6A9A002D173E /* Supporting Files */,
+			);
+			path = HanccRuntime;
+			sourceTree = "<group>";
+		};
+		4F5B684A1F0F6A9A002D173E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B684B1F0F6A9A002D173E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F75D1E41F1A0365005A7685 /* 场景1交换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1E81F1A039A005A7685 /* exchangeMethodViewController.h */,
+				4F75D1E91F1A039A005A7685 /* exchangeMethodViewController.m */,
+			);
+			name = "场景1交换方法";
+			sourceTree = "<group>";
+		};
+		4F75D1E51F1A036E005A7685 /* 场景2添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1EB1F1A03B7005A7685 /* addPropertyViewController.h */,
+				4F75D1EC1F1A03B7005A7685 /* addPropertyViewController.m */,
+				4F75D1ED1F1A03B7005A7685 /* Person.h */,
+				4F75D1EE1F1A03B7005A7685 /* Person.m */,
+				4F75D1EF1F1A03B7005A7685 /* Person+HanccAddProperty.h */,
+				4F75D1F01F1A03B7005A7685 /* Person+HanccAddProperty.m */,
+			);
+			name = "场景2添加属性";
+			sourceTree = "<group>";
+		};
+		4F75D1E61F1A0376005A7685 /* 场景3获取私有属性和方法 */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1F41F1A03C9005A7685 /* getPrivateViewController.h */,
+				4F75D1F51F1A03C9005A7685 /* getPrivateViewController.m */,
+			);
+			name = "场景3获取私有属性和方法";
+			sourceTree = "<group>";
+		};
+		4F75D1E71F1A037F005A7685 /* 场景4修改私有属性值 */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1FA1F1A03DF005A7685 /* ModifyViewController.h */,
+				4F75D1FB1F1A03DF005A7685 /* ModifyViewController.m */,
+			);
+			name = "场景4修改私有属性值";
+			sourceTree = "<group>";
+		};
+		4F75D1FD1F1A054B005A7685 /* HanccRuntimeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4F75D1FE1F1A054B005A7685 /* HanccBasicViewController.h */,
+				4F75D1FF1F1A054B005A7685 /* HanccBasicViewController.m */,
+				4F75D2001F1A054B005A7685 /* HanccCommonComponentsConfig.h */,
+				4F75D2011F1A054B005A7685 /* HanccCommonComponentsConfig.m */,
+				4F75D2021F1A054B005A7685 /* HanccGetPropertyMethod.h */,
+				4F75D2031F1A054B005A7685 /* HanccGetPropertyMethod.m */,
+				4F75D2041F1A054B005A7685 /* UILabel+HanccExchangeMethod.h */,
+				4F75D2051F1A054B005A7685 /* UILabel+HanccExchangeMethod.m */,
+				4F75D2061F1A054B005A7685 /* UIView+HanccExchangeMethod.h */,
+				4F75D2071F1A054B005A7685 /* UIView+HanccExchangeMethod.m */,
+				4F75D2081F1A054B005A7685 /* UIViewController+HanccExchangeMethod.h */,
+				4F75D2091F1A054B005A7685 /* UIViewController+HanccExchangeMethod.m */,
+			);
+			path = HanccRuntimeLibrary;
+			sourceTree = "<group>";
+		};
+		4F7C69851F19FD0F0057E54E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B68561F0F6A9A002D173E /* Assets.xcassets */,
+				4F5B68581F0F6A9A002D173E /* LaunchScreen.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		4F7C69861F19FD2B0057E54E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B684D1F0F6A9A002D173E /* AppDelegate.h */,
+				4F5B684E1F0F6A9A002D173E /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4F7C69871F19FD4C0057E54E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4F5B68531F0F6A9A002D173E /* Main.storyboard */,
+				4F5B68501F0F6A9A002D173E /* ViewController.h */,
+				4F5B68511F0F6A9A002D173E /* ViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5B68461F0F6A9A002D173E /* HanccRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5B685E1F0F6A9A002D173E /* Build configuration list for PBXNativeTarget "HanccRuntime" */;
+			buildPhases = (
+				4F5B68431F0F6A9A002D173E /* Sources */,
+				4F5B68441F0F6A9A002D173E /* Frameworks */,
+				4F5B68451F0F6A9A002D173E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanccRuntime;
+			productName = HanccRuntime;
+			productReference = 4F5B68471F0F6A9A002D173E /* HanccRuntime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5B683F1F0F6A9A002D173E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hancc;
+				TargetAttributes = {
+					4F5B68461F0F6A9A002D173E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WU2WFZ2B66;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4F5B68421F0F6A9A002D173E /* Build configuration list for PBXProject "HanccRuntime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5B683E1F0F6A9A002D173E;
+			productRefGroup = 4F5B68481F0F6A9A002D173E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5B68461F0F6A9A002D173E /* HanccRuntime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5B68451F0F6A9A002D173E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5B685A1F0F6A9A002D173E /* LaunchScreen.storyboard in Resources */,
+				4F75D2111F1A089D005A7685 /* HanccRuntime.podspec in Resources */,
+				4F5B68571F0F6A9A002D173E /* Assets.xcassets in Resources */,
+				4F5B68551F0F6A9A002D173E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5B68431F0F6A9A002D173E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F75D1EA1F1A039A005A7685 /* exchangeMethodViewController.m in Sources */,
+				4F75D1F21F1A03B7005A7685 /* Person.m in Sources */,
+				4F75D20C1F1A054B005A7685 /* HanccGetPropertyMethod.m in Sources */,
+				4F75D1F11F1A03B7005A7685 /* addPropertyViewController.m in Sources */,
+				4F75D1FC1F1A03DF005A7685 /* ModifyViewController.m in Sources */,
+				4F75D1F61F1A03C9005A7685 /* getPrivateViewController.m in Sources */,
+				4F75D20A1F1A054B005A7685 /* HanccBasicViewController.m in Sources */,
+				4F5B68521F0F6A9A002D173E /* ViewController.m in Sources */,
+				4F75D20E1F1A054B005A7685 /* UIView+HanccExchangeMethod.m in Sources */,
+				4F5B684F1F0F6A9A002D173E /* AppDelegate.m in Sources */,
+				4F75D1F31F1A03B7005A7685 /* Person+HanccAddProperty.m in Sources */,
+				4F5B684C1F0F6A9A002D173E /* main.m in Sources */,
+				4F75D20F1F1A054B005A7685 /* UIViewController+HanccExchangeMethod.m in Sources */,
+				4F75D20D1F1A054B005A7685 /* UILabel+HanccExchangeMethod.m in Sources */,
+				4F75D20B1F1A054B005A7685 /* HanccCommonComponentsConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5B68531F0F6A9A002D173E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5B68541F0F6A9A002D173E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5B68581F0F6A9A002D173E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5B68591F0F6A9A002D173E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5B685C1F0F6A9A002D173E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5B685D1F0F6A9A002D173E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5B685F1F0F6A9A002D173E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = HanccRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanccAuto.het.HanccRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85042888-e5cd-4e6f-a0bf-8789d9c0bd45";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Debug;
+		};
+		4F5B68601F0F6A9A002D173E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = HanccRuntime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanccAuto.het.HanccRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85042888-e5cd-4e6f-a0bf-8789d9c0bd45";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5B68421F0F6A9A002D173E /* Build configuration list for PBXProject "HanccRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5B685C1F0F6A9A002D173E /* Debug */,
+				4F5B685D1F0F6A9A002D173E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5B685E1F0F6A9A002D173E /* Build configuration list for PBXNativeTarget "HanccRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5B685F1F0F6A9A002D173E /* Debug */,
+				4F5B68601F0F6A9A002D173E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F5B683F1F0F6A9A002D173E /* Project object */;
+}
